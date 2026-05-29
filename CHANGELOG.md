@@ -9,6 +9,15 @@ modifying code to account for new releases.
 
 [upgrading guide]: https://docs.rs/snafu/*/snafu/guide/upgrading/index.html
 
+## [0.9.1] - 2026-05-29
+
+### Fixed
+
+- Error types that use `Self` in fields or trait bounds are now
+  supported.
+
+[0.9.1]: https://github.com/shepmaster/snafu/releases/tag/0.9.1
+
 ## [0.9.0] - 2026-03-02
 
 ### Added
